@@ -1,4 +1,4 @@
-import{r as d,e as h,c as i,a as e,t as n,u as m,o as u}from"./index-CEVHzO1W.js";import{_ as g}from"./_plugin-vue_export-helper-DlAUqK2U.js";const v={key:0,class:"blog-post"},b={class:"post-content"},f={class:"post-meta"},V={class:"date"},_={class:"author"},y=["innerHTML"],P={key:1,class:"not-found"},H={__name:"BlogPost",props:{id:{type:String,required:!0}},setup(p){const c=p,r=m(),l=d([{id:1,title:"开始使用Vue3",date:"2023-06-15",author:"博主",content:`
+import{r as d,e as h,c as i,a as e,t as n,u as m,o as u}from"./index-BGeizGyN.js";import{_ as g}from"./_plugin-vue_export-helper-DlAUqK2U.js";const v={key:0,class:"blog-post"},b={class:"post-content"},f={class:"post-meta"},V={class:"date"},_={class:"author"},y=["innerHTML"],P={key:1,class:"not-found"},H={__name:"BlogPost",props:{id:{type:String,required:!0}},setup(p){const c=p,r=m(),l=d([{id:1,title:"开始使用Vue3",date:"2023-06-15",author:"博主",content:`
       <h2>Vue3的新特性</h2>
       <p>Vue3带来了许多令人兴奋的新特性，包括组合式API、更好的TypeScript支持、更小的包体积等。</p>
       
@@ -174,11 +174,11 @@ import{r as d,e as h,c as i,a as e,t as n,u as m,o as u}from"./index-CEVHzO1W.js
                   uses: JamesIves/github-pages-deploy-action@v4
                   with:
                     folder: dist
-                    branch: gh-pages
+                    branch: main
           </code></pre>
         </li>
       </ol>
       
       <h3>设置GitHub仓库</h3>
       <p>最后，在GitHub仓库的Settings > Pages中，将Source设置为gh-pages分支，这样当你推送代码或GitHub Actions运行成功后，你的网站就会自动部署。</p>
-    `}]),o=h(()=>l.value.find(t=>t.id===parseInt(c.id))||null),s=()=>{r.push("/")};return(a,t)=>o.value?(u(),i("div",v,[e("button",{class:"back-button",onClick:s},"← 返回首页"),e("article",b,[e("header",null,[e("h1",null,n(o.value.title),1),e("div",f,[e("span",V,n(o.value.date),1),e("span",_,"作者: "+n(o.value.author),1)])]),e("div",{class:"content",innerHTML:o.value.content},null,8,y)])])):(u(),i("div",P,[t[0]||(t[0]=e("h2",null,"文章未找到",-1)),t[1]||(t[1]=e("p",null,"抱歉，您请求的文章不存在。",-1)),e("button",{onClick:s},"返回首页")]))}},k=g(H,[["__scopeId","data-v-614c3347"]]);export{k as default};
+    `}]),o=h(()=>l.value.find(t=>t.id===parseInt(c.id))||null),s=()=>{r.push("/")};return(a,t)=>o.value?(u(),i("div",v,[e("button",{class:"back-button",onClick:s},"← 返回首页"),e("article",b,[e("header",null,[e("h1",null,n(o.value.title),1),e("div",f,[e("span",V,n(o.value.date),1),e("span",_,"作者: "+n(o.value.author),1)])]),e("div",{class:"content",innerHTML:o.value.content},null,8,y)])])):(u(),i("div",P,[t[0]||(t[0]=e("h2",null,"文章未找到",-1)),t[1]||(t[1]=e("p",null,"抱歉，您请求的文章不存在。",-1)),e("button",{onClick:s},"返回首页")]))}},k=g(H,[["__scopeId","data-v-8da396a5"]]);export{k as default};

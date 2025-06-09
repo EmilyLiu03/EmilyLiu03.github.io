@@ -1,9 +1,9 @@
-import{r as d,e as h,c as i,a as e,t as n,u as m,o as u}from"./index-BGeizGyN.js";import{_ as g}from"./_plugin-vue_export-helper-DlAUqK2U.js";const v={key:0,class:"blog-post"},b={class:"post-content"},f={class:"post-meta"},V={class:"date"},_={class:"author"},y=["innerHTML"],P={key:1,class:"not-found"},H={__name:"BlogPost",props:{id:{type:String,required:!0}},setup(p){const c=p,r=m(),l=d([{id:1,title:"开始使用Vue3",date:"2023-06-15",author:"博主",content:`
+import{r as d,j as h,c as s,a as e,t as n,u as m,h as i}from"./index-CNhde20U.js";import{_ as g}from"./_plugin-vue_export-helper-DlAUqK2U.js";const v={class:"blog-post-container"},b={class:"container"},f={key:0,class:"blog-post"},_={class:"post-content"},V={class:"post-header"},y={class:"post-meta"},P={class:"post-date"},H={class:"post-author"},E=["innerHTML"],j={key:1,class:"not-found"},k={__name:"BlogPost",props:{id:{type:String,required:!0}},setup(p){const c=p,r=m(),a=d([{id:1,title:"开始使用Vue3",date:"2023-06-15",author:"博主",content:`
       <h2>Vue3的新特性</h2>
       <p>Vue3带来了许多令人兴奋的新特性，包括组合式API、更好的TypeScript支持、更小的包体积等。</p>
       
       <h3>组合式API</h3>
-      <p>组合式API是Vue3最重要的新特性之一，它允许我们使用函数式的方式组织组件逻辑，使代码更加模块化和可重用。</p>
+      <p>组合式API是Vue3最重要的全新特性之一，它允许我们使用函数式的方式组织组件逻辑，使代码更加模块化和可重用。</p>
       
       <pre><code>
       import { ref, computed, onMounted } from 'vue'
@@ -181,4 +181,4 @@ import{r as d,e as h,c as i,a as e,t as n,u as m,o as u}from"./index-BGeizGyN.js
       
       <h3>设置GitHub仓库</h3>
       <p>最后，在GitHub仓库的Settings > Pages中，将Source设置为gh-pages分支，这样当你推送代码或GitHub Actions运行成功后，你的网站就会自动部署。</p>
-    `}]),o=h(()=>l.value.find(t=>t.id===parseInt(c.id))||null),s=()=>{r.push("/")};return(a,t)=>o.value?(u(),i("div",v,[e("button",{class:"back-button",onClick:s},"← 返回首页"),e("article",b,[e("header",null,[e("h1",null,n(o.value.title),1),e("div",f,[e("span",V,n(o.value.date),1),e("span",_,"作者: "+n(o.value.author),1)])]),e("div",{class:"content",innerHTML:o.value.content},null,8,y)])])):(u(),i("div",P,[t[0]||(t[0]=e("h2",null,"文章未找到",-1)),t[1]||(t[1]=e("p",null,"抱歉，您请求的文章不存在。",-1)),e("button",{onClick:s},"返回首页")]))}},k=g(H,[["__scopeId","data-v-8da396a5"]]);export{k as default};
+    `}]),o=h(()=>a.value.find(t=>t.id===parseInt(c.id))||null),u=()=>{r.push("/")};return(l,t)=>(i(),s("div",v,[e("div",b,[o.value?(i(),s("div",f,[e("button",{class:"back-button",onClick:u},"← 返回首页"),e("article",_,[e("header",V,[e("h1",null,n(o.value.title),1),e("div",y,[e("span",P,n(o.value.date),1),e("span",H,"作者: "+n(o.value.author),1)])]),e("div",{class:"content",innerHTML:o.value.content},null,8,E)])])):(i(),s("div",j,[t[0]||(t[0]=e("h2",null,"文章未找到",-1)),t[1]||(t[1]=e("p",null,"抱歉，您请求的文章不存在。",-1)),e("button",{class:"back-button",onClick:u},"返回首页")]))])]))}},M=g(k,[["__scopeId","data-v-b0f0f805"]]);export{M as default};
